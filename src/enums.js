@@ -1,4 +1,5 @@
-export const THREE_D_BASE_URL = "https://s3.us-west-2.amazonaws.com/exabyte-three-js";
+//export const THREE_D_BASE_URL = "https://s3.us-west-2.amazonaws.com/exabyte-three-js";
+export const THREE_D_BASE_URL = "http://127.0.0.1";
 
 export const THREE_D_SOURCES = [
     "examples/js/libs/system.min.js",
@@ -83,6 +84,7 @@ export const THREE_D_SOURCES = [
     "editor/js/Sidebar.Settings.js",
     "editor/js/Sidebar.Settings.Shortcuts.js",
     "editor/js/Sidebar.Settings.Viewport.js",
+    "editor/js/Sidebar.Monomer.js",
     "editor/js/Sidebar.Properties.js",
     "editor/js/Sidebar.Object.js",
     "editor/js/Sidebar.Geometry.js",
