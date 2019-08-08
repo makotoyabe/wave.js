@@ -202,7 +202,8 @@ export function ThreeDSceneDataToMaterial(editor) {
     const basis = extractBasisFromScene(scene, lattice.vectorArrays);
     basis.toCrystal();
     return new Made.Material({
-        name: scene.getObjectByProperty("type", "Group").name,
+        //name: scene.getObjectByProperty("type", "Group").name,
+        name: "New Molecule",
         lattice: lattice.toJSON(),
         basis: basis.toJSON(),
     });
