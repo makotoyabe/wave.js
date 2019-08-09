@@ -131,7 +131,8 @@ export const THREE_D_SOURCES = [
     "editor/js/commands/SetSceneCommand.js",
 ];
 
-export const THREE_D_MOL_BASE_URL = "http://tk2-403-42830.vs.sakura.ne.jp";
+//export const THREE_D_MOL_BASE_URL = "http://tk2-403-42830.vs.sakura.ne.jp";
+export const THREE_D_MOL_BASE_URL = "http://192.168.137.147";
 
 export const THREE_D_MOL_SOURCES = [
     "three.js/examples/js/libs/system.min.js",
@@ -208,6 +209,7 @@ export const THREE_D_MOL_SOURCES = [
     "three.js/editor/js/History.js",
     "three.js/editor/js/HydrogenTools.js",
     "three.js/editor/js/Loader.js",
+    "three.js/editor/js/CmlLoader.js",
     "three.js/editor/js/Menubar.js",
     "three.js/editor/js/Menubar.File.js",
     "three.js/editor/js/Menubar.Edit.js",
@@ -256,6 +258,7 @@ export const THREE_D_MOL_SOURCES = [
     "three.js/editor/js/commands/DeleteAtomBondCommand.js",
     "three.js/editor/js/commands/RemoveObjectCommand.js",
     "three.js/editor/js/commands/SetAtomElementCommand.js",
+    "three.js/editor/js/commands/SetBondOrderCommand.js",
     "three.js/editor/js/commands/MoveObjectCommand.js",
     "three.js/editor/js/commands/SetPositionCommand.js",
     "three.js/editor/js/commands/SetRotationCommand.js",
