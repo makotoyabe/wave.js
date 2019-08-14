@@ -198,6 +198,7 @@ export const THREE_D_MOL_SOURCES = [
     "three.js/editor/js/Player.js",
     "three.js/editor/js/Script.js",
     "three.js/examples/js/vr/WebVR.js",
+    "three.js/editor/js/OptimizeMol.js",
     "three.js/editor/js/Angle.js",
     "three.js/editor/js/Atom.js",
     "three.js/editor/js/Bond.js",
