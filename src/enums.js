@@ -227,6 +227,7 @@ export const THREE_D_MOL_SOURCES = [
     "three.js/editor/js/Sidebar.Settings.Shortcuts.js",
     "three.js/editor/js/Sidebar.Settings.Viewport.js",
     "three.js/editor/js/Sidebar.Molecule.js",
+    "three.js/editor/js/Sidebar.Polymer.js",
     "three.js/editor/js/Sidebar.Properties.js",
     "three.js/editor/js/Sidebar.Object.js",
     "three.js/editor/js/Sidebar.Geometry.js",
