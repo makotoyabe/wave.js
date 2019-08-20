@@ -131,8 +131,8 @@ export const THREE_D_SOURCES = [
     "editor/js/commands/SetSceneCommand.js",
 ];
 
-//export const THREE_D_MOL_BASE_URL = "http://tk2-403-42830.vs.sakura.ne.jp";
-export const THREE_D_MOL_BASE_URL = "http://192.168.137.147";
+export const THREE_D_MOL_BASE_URL = "http://tk2-403-42830.vs.sakura.ne.jp:8888";
+//export const THREE_D_MOL_BASE_URL = "http://192.168.137.147";
 
 export const THREE_D_MOL_SOURCES = [
     "three.js/examples/js/libs/system.min.js",
