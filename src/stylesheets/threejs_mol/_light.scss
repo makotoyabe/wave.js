@@ -155,7 +155,7 @@
         right: 0;
         top: 32px;
         bottom: 0;
-        width: 300px;
+        width: 420px;
         background: #eee;
         overflow: auto;
     }
@@ -187,12 +187,102 @@
     #tabs span {
         color: #aaa;
         border-right: 1px solid #ccc;
-        padding: 10px;
+        padding: 4px;
     }
 
     #tabs span.selected {
         color: #888;
         background-color: #eee;
+    }
+
+/* */
+    #tabs1 {
+        background-color: #ddd;
+        border-top: 1px solid #ccc;
+        font-size: 16px;
+    }
+
+    #tabs1 span {
+        color: #aaa;
+        border-right: 1px solid #ccc;
+        padding: 4px 4px 2px 4px;
+    }
+
+    #tabs1 span.selected {
+        color: #000;
+        background-color: #eee;
+    }
+
+/* */
+    #tabs2 {
+        background-color: #ddd;
+        border-top: 1px solid #ccc;
+        font-size: 16px;
+    }
+
+    #tabs2 span {
+        color: #a0a;
+        border-right: 1px solid #c0c;
+        padding: 4px 4px 2px 4px;
+    }
+
+    #tabs2 span.selected {
+        color: #fff;
+        background-color: #e0e;
+    }
+
+/* */
+    #tabs3 {
+        background-color: #ddd;
+        border-top: 1px solid #ccc;
+        font-size: 16px;
+    }
+
+    #tabs3 span {
+        color: #aa0;
+        border-right: 1px solid #cc0;
+        padding: 4px 4px 2px 4px;
+    }
+
+    #tabs3 span.selected {
+        color: #880;
+        background-color: #ee0;
+    }
+
+/* */
+    #tabs4 {
+        background-color: #ddd;
+        border-top: 1px solid #ccc;
+        font-size: 16px;
+    }
+
+    #tabs4 span {
+        color: #0aa;
+        border-right: 1px solid #0cc;
+        padding: 4px 4px 2px 4px;
+    }
+
+    #tabs4 span.selected {
+        color: #088;
+        background-color: #0ee;
+    }
+
+/* */
+    #tabs5 {
+        background-color: #ddd;
+        border-top: 1px solid #ccc;
+        font-size: 16px;
+    }
+
+    #tabs5 span {
+        color: #00a;
+        border-right: 1px solid #00c;
+        padding: 4px 4px 2px 4px;
+    }
+
+    #tabs5 span.selected {
+        color: #008;
+        background-color: #88e;
     }
 
     #toolbar {

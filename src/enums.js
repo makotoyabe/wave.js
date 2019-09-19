@@ -131,7 +131,8 @@ export const THREE_D_SOURCES = [
     "editor/js/commands/SetSceneCommand.js",
 ];
 
-export const THREE_D_MOL_BASE_URL = "http://tk2-403-42830.vs.sakura.ne.jp:8888";
+export const THREE_D_MOL_BASE_URL = "http://160.16.135.84:8888";
+//export const THREE_D_MOL_BASE_URL = "http://tk2-403-42830.vs.sakura.ne.jp:8888";
 //export const THREE_D_MOL_BASE_URL = "http://192.168.137.147";
 
 export const THREE_D_MOL_SOURCES = [
@@ -220,16 +221,30 @@ export const THREE_D_MOL_SOURCES = [
     "three.js/editor/js/Menubar.Help.js",
     "three.js/editor/js/Menubar.Status.js",
     "three.js/editor/js/Molecule.js",
+
     "three.js/editor/js/Sidebar.js",
+    "three.js/editor/js/Sidebar.ThreeDEditor.js",
+    "three.js/editor/js/Sidebar.Molecule.js",
+    "three.js/editor/js/Sidebar.Molecule.Inserted.js",
+    "three.js/editor/js/Sidebar.Molecule.Notinserted.js",
+    "three.js/editor/js/Sidebar.Repetition.js",
+    "three.js/editor/js/Sidebar.Database.js",
+    "three.js/editor/js/Sidebar.Database.PubChem.js",
+    "three.js/editor/js/Sidebar.Database.Fragments.js",
+
+    "three.js/editor/js/Sidebar.Polymer.js",
+    "three.js/editor/js/Sidebar.Polymer.Polymerization.js",
+    "three.js/editor/js/Sidebar.Polymer.MonomerRegistration.js",
+    "three.js/editor/js/Sidebar.Polymer.MonomerRegistration.Regist.js",
+    "three.js/editor/js/Sidebar.Polymer.MonomerRegistration.SelectMonomer.js",
+    "three.js/editor/js/Sidebar.Polymer.MonomerRegistration.SelectMonomer.Editor.js",
+    "three.js/editor/js/Sidebar.Polymer.MonomerRegistration.SelectMonomer.File.js",
+
     "three.js/editor/js/Sidebar.Scene.js",
     "three.js/editor/js/Sidebar.Project.js",
     "three.js/editor/js/Sidebar.Settings.js",
     "three.js/editor/js/Sidebar.Settings.Shortcuts.js",
     "three.js/editor/js/Sidebar.Settings.Viewport.js",
-    "three.js/editor/js/Sidebar.Molecule.js",
-    "three.js/editor/js/Sidebar.Polymer.js",
-    "three.js/editor/js/Sidebar.PubChem.js",
-    "three.js/editor/js/Sidebar.Fragments.js",
     "three.js/editor/js/Sidebar.Properties.js",
     "three.js/editor/js/Sidebar.Object.js",
     "three.js/editor/js/Sidebar.Geometry.js",
